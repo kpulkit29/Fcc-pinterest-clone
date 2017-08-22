@@ -1,0 +1,13 @@
+<strong class="text-center">Your pins</strong>
+<div class="masonry-grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+   {{#each pin_up}}
+    <div class="grid-item">
+        <div class="img-holder">
+            <img src={{this.url}} class="grid-thumbnail"/>
+        </div>
+        <div class="grid-thumbnail-text">
+            <p class="text-center">{{this.title}}</p>
+            <a class="btn btn-danger" href="/api/delete/{{this._id}}"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</a>
+        </div>
+        {{/each}}
+    </div>

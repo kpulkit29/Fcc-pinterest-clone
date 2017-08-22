@@ -1,0 +1,6 @@
+{
+  "name": "Start on Heroku: Node.js",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/kpulkit29/Fcc-pinterest-clone",
+  "keywords": ["node", "express", "heroku"]
+}

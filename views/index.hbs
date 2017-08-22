@@ -1,0 +1,12 @@
+
+<div class="masonry-grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+   {{#each pin_up}}
+    <div class="grid-item images">
+        <div class="img-holder">
+            <img src={{this.url}} class="grid-thumbnail"/>
+        </div>
+        <div class="grid-thumbnail-text">
+            <p class="text-center">{{this.title}}</p>
+        </div>
+        {{/each}}
+    </div>
